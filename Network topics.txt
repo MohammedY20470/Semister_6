@@ -1,0 +1,21 @@
+Network topics
+
+1-subneting 
+2-vlan
+3-routing 
+4-routing protocols
+5-ROAS
+6-DNS config
+7-ssh
+8-DHCP
+9-port security
+10-IP add
+11-dynamic routing 
+12-ARP
+13-Trurking
+
+
+what we studied:
+
+giving IP addresses to the PC
+and separating some VLANs and for the pces and assigning them VLANs too. 
