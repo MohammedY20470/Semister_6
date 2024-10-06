@@ -16,8 +16,7 @@ public class Lecture1 {
     public static void main(String[] args) {
         try(Socket s = new Socket("time.nist.gov", 13)){
 
-
-            // the is a way to fix the source ip addres and source port number as the 3rd and 4th arguments.
+            // this is a way to fix the source ip addres and source port number as the 3rd and 4th arguments.
             InputStream in = s.getInputStream();
             InputStreamReader ins = new InputStreamReader(in);
             int b =0;
@@ -33,4 +32,4 @@ public class Lecture1 {
         
     }
 }
-// change the socket.getnputStream to System.in
+// H.W > change the socket.getnputStream to System.in

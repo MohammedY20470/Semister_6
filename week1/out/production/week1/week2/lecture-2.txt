@@ -1,0 +1,20 @@
+Networking chapter-1
+
+in distributed computing the system can have multiple datasource or multi processing devices, 
+    but we need a dicent network to connect the systems together. 
+*note: if he tolks about the layers as their PDU's name. 
+
+
+what shall we know in protocol list?
+1- IP 
+2- UDP
+3- TCP- the protocal that is used in the transport layer. 
+... and many many otehrs that is used in  the application(encapsulated by it), and session, and presentation. 
+
+what are ports?
+and how does the addresses in a connection works?
+
+
+h.w 
+1- what are proxcy servers?
+2- what are dns?
