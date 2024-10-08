@@ -21,14 +21,14 @@ public class Lecture3 {
       *is no other application using that port, that port will be opened and used
 
       *NOTE: but  if you are using UNIX machines if you want to create a port between 1-1023 
-      *      you have to be the the sudo to do this. 
+      *      you have to be the sudo to do this.
       */
 
     try(
       ServerSocket s1= new ServerSocket(5000 );
       /* 
        * if you give another int as the paramiter. 
-       * you will dicide the number of the users that you want to use. which is called the backlog
+       * you will dicide the number of the users that you want to use at one time. which is called the backlog
        * and that will be the second paramiter.  
        */
       ) {
