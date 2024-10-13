@@ -1,10 +1,7 @@
 package wekk4;
 
-import java.io.OutputStreamWriter;
-import java.io.Writer;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.Date;
 
 public class Lecture2 {
   public static void main(String[] args) {
@@ -34,10 +31,11 @@ public class Lecture2 {
       while (true){
         try{
           Socket connection = s1.accept();
-          Lecture3ClientHandler handler = new Lecture3ClientHandler(connection);
+          Lecture2ClientHandler handler = new Lecture2ClientHandler(connection);
           Thread t = new Thread(handler);
           //each application will use a thread and you can limit the thread by using the thread pool;
           t.start(); // this will lunch the handler.run in that thread and
+          System.out.println("The thread has started");
         } catch (Exception ex) {
           System.out.println("Catch2 : " + ex);
         }

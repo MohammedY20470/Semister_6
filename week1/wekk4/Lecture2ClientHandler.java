@@ -5,9 +5,9 @@ import java.io.Writer;
 import java.net.Socket;
 import java.util.Date;
 
-public class Lecture3ClientHandler implements Runnable {
+public class Lecture2ClientHandler implements Runnable {
   private Socket conn;
-  public Lecture3ClientHandler(Socket socket) {
+  public Lecture2ClientHandler(Socket socket) {
     this.conn=socket;
   }
   public void run() {

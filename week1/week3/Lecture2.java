@@ -80,13 +80,13 @@ public class Lecture2 {
       writer.write("\n");
       writer.flush();
       //Read Reply
-      StringBuilder responceFromNet=new StringBuilder();
+      StringBuilder responseFromNet=new StringBuilder();
       String line = null;
       while((line=reader.readLine())!=null){
-        responceFromNet.append(line);
-        responceFromNet.append("\r\n");
+        responseFromNet.append(line);
+        responseFromNet.append("\r\n");
       }
-      System.out.println(responceFromNet.toString());
+      System.out.println(responseFromNet.toString());
 
     }catch (Exception catch1){
       System.err.println(catch1.getMessage());
