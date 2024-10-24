@@ -32,12 +32,12 @@ public class Lecture_3 {
         // } catch (Exception e) {
         //     System.err.println(e);
         // }
-        for(int i =8080; i<8088; i++){
+        for(int i =1; i<8088; i++){
             try {
                 Socket local= new Socket("127.0.0.1",i);
                 System.out.println(i);
             } catch (Exception e) {
-                System.err.println(e);
+//                System.err.println(e);
             }
         }
     }

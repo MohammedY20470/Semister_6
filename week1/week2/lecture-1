@@ -1,6 +1,6 @@
 the big picture behind the algorithms is computation? to reduse time and space.
 
-and that is why it is considured to be one of the main components of distributed computation
+and that is why it is considered to be one of the main components of distributed computation
 
 what are the comutation types?
 1- Single   instruction streem and Single data streem,
@@ -10,15 +10,15 @@ what are the comutation types?
 
 what are the things that ITS 350 does not have the answer?
 
-1- reliablity.
+1- reliability.
 2- performance/ ratio
-3- geographocal?
+3- geographical?
 4- Distributed resource, people, and ...
-5- scalablity->this is the concerns it self with the number of users of the system. 
+5- scalability->this is the concerns it self with the number of users of the system.
 
-Distributed vs Deviding computation:-
-deviding computation has been achived in many ways 
-it was achived with having multiple cpus and connecting them by PCIe to the memory, and exchanging data using the that interconnection which is PCI express.
+Distributed vs Divided computation:-
+Divided Computation has been achieved in many ways
+it was achieved with having multiple cpus and connecting them by PCIe to the memory, and exchanging data using the that interconnection which is PCI express.
 or or they can have multi core processing units and threads.
 
-However, in distributed commputing you will have multiple computers and you will connect them by modern technology, i.e connecting 2 or more computers, by rj-45 or a fiber-cable, or or wirelessly. 
+However, in distributed computing you will have multiple computers and you will connect them by modern technology, i.e connecting 2 or more computers, by rj-45 or a fiber-cable, or or wirelessly.
